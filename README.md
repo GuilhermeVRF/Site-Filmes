@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
   <img src="https://github.com/GuilhermeVRF/Site-Filmes/assets/98266333/cb6e2bb5-266c-4c91-8267-ea5c4b1d2764" width="600px">
 </div>
 <h2>Por baixo dos panos:</h2>
