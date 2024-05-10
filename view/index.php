@@ -11,13 +11,14 @@
 </form>
 
 <?php
+if(array_key_exists("nomeFilme", $_GET)){
+    $nomeFilme = $_GET["nomeFilme"];
 
-$nomeFilme = $_GET["nomeFilme"];
-
-if(existeFilme($conexao, $nomeFilme) == "false"){
-    consumirApi($conexao, $nomeFilme);
-}    
-    listarFilme($conexao, $nomeFilme);
+    if(existeFilme($conexao, $nomeFilme) == "false"){
+        consumirApi($conexao, $nomeFilme);
+    }    
+        listarFilme($conexao, $nomeFilme);
+}
 ?>
 
 <?php
